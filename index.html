@@ -1,0 +1,234 @@
+<html>
+    <head>
+      <title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:comic sans, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#940;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+        <!-- Compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+<!-- Minified JS library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    </head>
+    <center><h1> <font color="white" size="7" face="italic">DROGAS</font></h1></center>
+   <body background="https://thumbs.dreamstime.com/b/jeringuilla-con-la-aguja-en-fondo-negro-17281002.jpg">
+    
+    <div id="header">
+			<ul class="nav">
+				<li><a href="file:///Users/juangranda/Desktop/Brackets.app/Contents/samples/es/Primeros%20Pasos/enlace%201.html">COCAINA</a></li>
+				<li><a href="file:///Users/juangranda/Desktop/Brackets.app/Contents/samples/es/Primeros%20Pasos/enlace%202.html">HEROINA</a>
+					<ul>
+					
+					
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a>
+							<ul>
+								<li><a href="">Submenu1</a></li>
+								<li><a href="">Submenu2</a></li>
+								<li><a href="">Submenu3</a></li>
+								<li><a href="">Submenu4</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="file:///Users/juangranda/Desktop/Brackets.app/Contents/samples/es/Primeros%20Pasos/enlace%203.html">NECESITAS AYUDA</a>
+					<ul>
+						<li><a href="">Submenu1</a></li>
+						<li><a href="">Submenu2</a></li>
+						<li><a href="">Submenu3</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="">CONTACTOS</a></li>
+			</ul>
+		</div>
+     
+       <center><div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://www.narconon-colombia.org/FURL/imagecache/cropfit@w=710/blob/images/articles/c/4/c4b0bb77-fd2e-11e7-8600-42010a80021f/drogas.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://www.revistamoi.com/wp-content/uploads/2017/06/drogas2.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://www.eliberico.com/wp-content/uploads/2019/09/drogas-reino-unido.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://cocainaanonimos.org/wp-content/uploads/2020/01/5902_cocaina.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://www.diariojuridico.com/wp-content/uploads/2019/12/extasis-diariojuridico.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://www.elcomercio.com/files/article_main/uploads//2014/06/05/5390a7c8bcc7c.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="https://statics-cuidateplus.marca.com/sites/default/files/patologia-dual.jpg" alt="">
+        </div>
+   
+         <div class="item">
+            <img src="https://t2.pb.ltmcdn.com/es/posts/5/9/4/tipos_de_drogas_ilegales_4495_600.jpg" alt="">
+        </div>
+         <div class="item">
+            <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2018/05/04/15254462557074.jpg" alt="">
+        </div>
+        
+          </div>
+
+         <!-- Controls -->
+         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+       </a>
+       </div></center> 
+           
+           z<header>
+	<nav>
+		<ul>
+			
+			
+		</ul>
+	</nav>
+</header>
+            
+   <div class="row">
+       <center><div class="col-md-10">
+                      
+            </div>    
+        <div class="col-s-12">
+      
+           </div>
+           <div class="row">
+               <div class="col-md-12">
+          <font color="white" size="5" face="italic"><center> 
+                   
+       </center>
+       
+       
+       
+       
+       
+        <div class="row">
+        <div class="col-md-12">
+    <center> <font color = "white" size="4" face="italic">Definicion de droga. Una droga es una sustancia vegetal, mineral o animal que tiene efecto estimulante, alucinogeno, narcotico o deprimente. ... A nivel general, se conoce como droga a las sustancias que, al ser introducidas en el organismo, pueden alterar o modificar sus funciones.
+            
+            <center><img src="https://www.healthychildren.org/SiteCollectionImagesArticleImages/DrugAppendix_PillBottles.jpg?RenditionID=3"></center>  
+            </font></center>
+            </div>
+            
+          <div class="row">
+        <div class="col-md-12">
+  <center>  <font color="white" size="4" face="italic">Las drogas licitas son las que pueden ser comercializadas como el cigarro y las bebidas alcoholicas. ... Drogas sinteticas: que son producidas de forma artificial en laboratorios como el ecstasy y el LSD; Drogas semi-sinteticas: como heroina, cocaina y crack, por ejemplo.
+        
+        
+        
+            <center><img src="https://ichef.bbci.co.uk/news/410/cpsprodpb/805F/production/_103536823_gettyimages-1036052884.jpg"></center>  
+            </font>
+            
+        </center>
+           
+            </div>
+            
+            </div>  
+            
+            
+            <div class="row"></div>
+            <div class="col-md-12">
+    <center> <font color="white" size="4" face="italic"> Danos cardiovasculares: Como hipotension y alteracion de la frecuencia cardiaca (cannabis), taquicardia e hipertension, riesgo de angina de pecho e 
+        infarto de miocardio, hemorragias cerebrales (cocaina), arritmia.
+        
+        <center><img src="https://www.familiaysalud.es/sites/default/files/styles/article_image/public/drogas_informacion.jpg?itok=pjzm7Zto"></center> 
+</font>
+        
+          </center>   </div>
+             
+        <div class="row">
+        
+                
+
+        
+        
+        
+        </div>
+        
+        
+        </div> 
+                   </font>
+               </div>
+            
+    </div>
+       </center>
+       </div>
+       
+   
+    </body>
+    
+       </html>
